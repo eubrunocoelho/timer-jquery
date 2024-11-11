@@ -22,7 +22,7 @@ $(document).ready(() => {
         const hours = Math.floor((totalSeconds % (3600 * 24)) / 3600);
 
         return `${days}D ${hours}H`;
-    }
+    };
 
     const startTimer = () => {
         setInterval(() => {
